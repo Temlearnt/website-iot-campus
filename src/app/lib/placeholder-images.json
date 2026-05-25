@@ -1,0 +1,154 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-iot",
+      "description": "Workshop Arduino",
+      "imageUrl": "/images/deep-image.jpg",
+      "imageHint": "arduino workshop"
+    },
+    {
+      "id": "event-1",
+      "description": "Workshop AI",
+      "imageUrl": "/images/event-1.jpeg",
+      "imageHint": "ai workshop"
+    },
+    {
+      "id": "event-2",
+      "description": "Pelatihan AI",
+      "imageUrl": "/images/event-2.jpeg",
+      "imageHint": "ai training"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Hackaton IoT",
+      "imageUrl": "/images/gallery-1.jpg",
+      "imageHint": "hackaton iot"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Seminar IoT",
+      "imageUrl": "/images/gallery-2.jpg",
+      "imageHint": "seminar iot"
+    },
+    {
+      "id": "gallery-3",
+      "description": "IoT Class Eps. 3",
+      "imageUrl": "/images/gallery-3.jpg",
+      "imageHint": "iot class"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Workshop Arduino",
+      "imageUrl": "/images/gallery-4.jpg",
+      "imageHint": "arduino workshop"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Collaboration with DSC Unkris",
+      "imageUrl": "/images/gallery-5.jpg",
+      "imageHint": "iot collab"
+    },
+    {
+      "id": "gallery-6",
+      "description": "IT Exhibition",
+      "imageUrl": "/images/gallery-6.webp",
+      "imageHint": "pameran iot"
+    },
+    {
+      "id": "dosen-1",
+      "description": "Pa Risanto Darmawan",
+      "imageUrl": "/images/Risanto-Darmawan.webp",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "dosen-2",
+      "description": "Pa Ali Khumaidi",
+      "imageUrl": "/images/ali-khumaidi.jpeg",
+      "imageHint": "professional man"
+    },
+    {
+      "id": "dosen-3",
+      "description": "Bu Mega Wahyu Rhamadani",
+      "imageUrl": "/images/mega-wahyu.jpg",
+      "imageHint": "professional woman"
+    },
+    {
+      "id": "leader-putu",
+      "description": "Putu",
+      "imageUrl": "/images/putu.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "treasurer-ryan",
+      "description": "Ryan",
+      "imageUrl": "/images/ryan.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "kompub-adjie",
+      "description": "Adjie",
+      "imageUrl": "/images/adjie.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "kompub-bintang",
+      "description": "Bintang",
+      "imageUrl": "/images/bintang.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "kompub-ikhwan",
+      "description": "Ikhwan",
+      "imageUrl": "/images/ikhwan.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "sekfas-jepri",
+      "description": "Jepri",
+      "imageUrl": "/images/arhandi.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "sekfas-bila",
+      "description": "Bila",
+      "imageUrl": "/images/salsabila.jpg",
+      "imageHint": "student woman"
+    },
+    {
+      "id": "ristek-bimo",
+      "description": "Bimo",
+      "imageUrl": "/images/bimon.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "ristek-afif",
+      "description": "Afif",
+      "imageUrl": "/images/afif.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "ristek-dika",
+      "description": "Dika",
+      "imageUrl": "/images/dika.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "ristek-ridho",
+      "description": "Ridho",
+      "imageUrl": "/images/ridho.jpeg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "ristek-andre",
+      "description": "Andre",
+      "imageUrl": "/images/andre.jpg",
+      "imageHint": "student man"
+    },
+    {
+      "id": "logo-iot",
+      "description": "logo-iot",
+      "imageUrl": "/images/logo.png",
+      "imageHint": "brand logo"
+    }
+  ]
+}

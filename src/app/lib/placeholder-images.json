@@ -9,13 +9,13 @@
     {
       "id": "event-1",
       "description": "Workshop AI",
-      "imageUrl": "/images/event-1.jpeg",
+      "imageUrl": "/images/event-1.webp",
       "imageHint": "ai workshop"
     },
     {
       "id": "event-2",
       "description": "Pelatihan AI",
-      "imageUrl": "/images/event-2.jpeg",
+      "imageUrl": "/images/event-2.jpg",
       "imageHint": "ai training"
     },
     {
@@ -111,7 +111,7 @@
     {
       "id": "sekfas-bila",
       "description": "Bila",
-      "imageUrl": "/images/salsabila.jpg",
+      "imageUrl": "/images/salsabila.jpeg",
       "imageHint": "student woman"
     },
     {
@@ -141,7 +141,7 @@
     {
       "id": "ristek-andre",
       "description": "Andre",
-      "imageUrl": "/images/andre.jpg",
+      "imageUrl": "/images/andre.jpeg",
       "imageHint": "student man"
     },
     {

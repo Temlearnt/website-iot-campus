@@ -46,7 +46,6 @@ IOT-WEBSITE-MAIN/
 │   ├── components/       # komponen reusable (layout, sections, ui)
 │   ├── lib/              # utilities (placeholder-images.json, utils.ts)
 │   └── hooks/            # custom hooks (jika ada)
-├── docs/                 # dokumentasi tambahan
 ├── package.json
 ├── tailwind.config.ts
 ├── next.config.ts

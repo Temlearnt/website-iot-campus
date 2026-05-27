@@ -1,45 +1,46 @@
 "use client"
 
 import React, { useState, useEffect } from 'react';
-import { Calendar, MapPin, Clock, ArrowRight } from 'lucide-react';
+import { Calendar, MapPin, ArrowRight } from 'lucide-react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
+// Tambahkan registrationLink untuk setiap event
 const eventData = [
   {
     id: "e1",
-    title: "Starting Generative AI: From Creative Prompts to Scalable AI Infrastructures",
-    date: "2026-05-26T10:00:00",
-    location: "Universitas Nusa Mandiri",
-    category: "Workshop",
-    imgId: "event-1"
+    title: "The AI Collective Jakarta | Humans in AI Week",
+    date: "2026-06-01T12:00:00",
+    location: "Jakarta, Indonesia",
+    category: "Meetup",
+    imgId: "event-1",
+    registrationLink: "https://luma.com/aic-jakarta-hiai" // Ganti dengan link asli
   },
   {
     id: "e2",
-    title: "Pelatihan Digital Internasional",
-    date: "2026-06-15T23:59:59",
-    location: "BPPTIK Kementerian Komdigi, Cikarang",
-    category: "Pelatihan",
-    imgId: "event-2"
+    title: "Kiro Meetup Bekasi",
+    date: "2026-06-08T18:00:00",
+    location: "Kota Bekasi, Jawa Barat",
+    category: "Meetup",
+    imgId: "event-2",
+    registrationLink: "https://luma.com/sakxkj89?locale=id" // Ganti dengan link asli
   }
 ];
 
 function Countdown({ targetDate }: { targetDate: string }) {
+  // ... (sama seperti kode Anda, tidak berubah)
   const [timeLeft, setTimeLeft] = useState({ hari: 0, jam: 0, menit: 0, detik: 0 });
-
   useEffect(() => {
     const timer = setInterval(() => {
       const now = new Date().getTime();
       const distance = new Date(targetDate).getTime() - now;
-
       if (distance < 0) {
         clearInterval(timer);
         return;
       }
-
       setTimeLeft({
         hari: Math.floor(distance / (1000 * 60 * 60 * 24)),
         jam: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
@@ -47,7 +48,6 @@ function Countdown({ targetDate }: { targetDate: string }) {
         detik: Math.floor((distance % (1000 * 60)) / 1000),
       });
     }, 1000);
-
     return () => clearInterval(timer);
   }, [targetDate]);
 
@@ -117,7 +117,12 @@ export function Events() {
                       <Countdown targetDate={event.date} />
                     </div>
 
-                    <Button className="w-full rounded-full">Daftar Sekarang <ArrowRight className="ml-2 w-4 h-4" /></Button>
+                    {/* Tombol dengan link registrasi */}
+                    <Button asChild className="w-full rounded-full">
+                      <a href={event.registrationLink} target="_blank" rel="noopener noreferrer">
+                        Daftar Sekarang <ArrowRight className="ml-2 w-4 h-4" />
+                      </a>
+                    </Button>
                   </CardContent>
                 </div>
               </Card>

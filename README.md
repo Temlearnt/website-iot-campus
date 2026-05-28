@@ -56,7 +56,7 @@ IOT-WEBSITE-MAIN/
 
 1. **Clone repositori**
    ```bash
-   git clone https://github.com/username/iot-campus-unkris.git
+   git clone https://github.com/Temlearnt/website-iot-campus.git
    cd iot-campus-unkris
    ```
 
@@ -75,13 +75,6 @@ IOT-WEBSITE-MAIN/
    ```
 
 4. **Buka browser** di `http://localhost:3000`
-
-## 🔧 Konfigurasi Penting
-
-- **Google Form** – Ganti URL di komponen `Navbar` dan `Hero` (variabel `GOOGLE_FORM_URL`) dengan tautan formulir pendaftaran asli.
-- **Placeholder Images** – Edit file `src/lib/placeholder-images.json` untuk menyesuaikan gambar (foto anggota, galeri, dll).
-- **Favicon** – Pastikan file `logo.ico` atau `favicon.ico` berada di folder `public/`.
-- **Logo navbar & footer** – Letakkan `logo.png` di `public/images/` dan sesuaikan path di komponen.
 
 ## 👥 Tim Pengembang
 

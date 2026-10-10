@@ -1,0 +1,6 @@
+{
+  "name": "IoT Campus Krisnadwipayana",
+  "description": "Pusat Inovasi IoT & AI untuk Mahasiswa Universitas Krisnadwipayana (UNKRIS)",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

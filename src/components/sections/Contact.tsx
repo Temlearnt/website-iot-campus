@@ -73,7 +73,7 @@ export function Contact() {
                     <CheckCircle2 className="w-8 h-8 md:w-10 md:h-10" />
                   </div>
                   <h3 className="text-xl md:text-2xl font-bold">Terima Kasih!</h3>
-                  <p className="text-sm md:text-base text-muted-foreground px-2">Pesan Anda telah disiapkan di aplikasi email Anda. Mohon pastikan untuk menekan 'Kirim' pada aplikasi tersebut.</p>
+                  <p className="text-sm md:text-base text-muted-foreground px-2">Pesan Anda telah disiapkan di aplikasi email Anda. Mohon pastikan untuk menekan &apos;Kirim&apos; pada aplikasi tersebut.</p>
                   <Button variant="outline" onClick={() => setIsSubmitted(false)} className="rounded-full mt-2">Kirim Pesan Lain</Button>
                 </div>
               ) : (

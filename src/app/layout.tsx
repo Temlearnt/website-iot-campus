@@ -1,5 +1,13 @@
 import type { Metadata, Viewport } from 'next';
+import { Poppins } from 'next/font/google';
 import './globals.css';
+
+const poppins = Poppins({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800'],
+  variable: '--font-poppins',
+  display: 'swap',
+});
 
 // Base URL untuk production (isi dengan domain vercel mu)
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://iot-campus-unkris.vercel.app'; // ganti dengan domain asli
@@ -78,18 +86,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="id" className="scroll-smooth">
+    <html lang="id" className={`scroll-smooth ${poppins.variable}`}>
       <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-          rel="stylesheet"
-        />
-        {/* Tambahan meta untuk verifikasi google search console dll jika perlu */}
         <meta name="google-site-verification" content="..." />
       </head>
-      <body className="font-body antialiased bg-background text-foreground">
+      <body className="font-sans antialiased bg-background text-foreground selection:bg-primary/20 selection:text-primary">
         {children}
       </body>
     </html>
